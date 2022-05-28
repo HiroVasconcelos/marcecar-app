@@ -44,12 +44,19 @@ img {
     width: 32px;
     height: 2px;
     background: #ffff;
-    margin: 8px;
+    margin: 7px;
 }
 
 @media (max-width: 999px) {
     body {
         overflow-x: hidden;
+    }
+    .navbar {
+        height: 10vh;
+    }
+    img {
+        max-width: 11vh;
+        max-height: 11vh;
     }
     .list {
         position: absolute;

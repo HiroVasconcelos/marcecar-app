@@ -3,7 +3,7 @@ class MobileNavbar {
         this.mobileMenu = document.querySelector(mobileMenu);
         this.list = document.querySelector(list);
         this.link = document.querySelector(link);
-        this.activeClass = "active"
+        this.activeClass = "active";
     }
 
     addClickEvent() {
