@@ -1,7 +1,7 @@
 .contentStyle {
     margin-top: 14vh;
     margin-bottom: 2vh;
-    background-color: gray;
+    background-color: rgb(221, 221, 221);
   }
 
 @media (max-width: 999px) {
