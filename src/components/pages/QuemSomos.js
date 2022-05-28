@@ -1,6 +1,10 @@
+import style from './QuemSomos.module.css'
+
 function QuemSomos() {
     return(
-        <h1>Quem Somos</h1>
+        <div className={style.contentStyle}>
+            <h1>Quem Somos</h1>
+        </div>
     )
 }
 

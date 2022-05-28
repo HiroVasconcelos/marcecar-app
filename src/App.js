@@ -7,7 +7,6 @@ import NossosTrabalhos from './components/pages/NossosTrabalhos'
 import QuemSomos from './components/pages/QuemSomos'
 import Contatos from './components/pages/Contatos'
 
-import Container from './components/layout/Container'
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 
@@ -15,7 +14,6 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <Container customClass="min-height">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/servicos" element={<Servicos />} />
@@ -23,8 +21,7 @@ function App() {
           <Route path="/quem-somos" element={<QuemSomos />} />
           <Route path="/contatos" element={<Contatos />} />
         </Routes>
-      </Container>  
-      <Footer />
+      {/* <Footer /> */}
     </Router>
   );
 }

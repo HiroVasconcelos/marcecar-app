@@ -1,6 +1,10 @@
+import style from './NossosTrabalhos.module.css'
+
 function NossosTrabalhos() {
     return(
-        <h1>Nossos Trabalhos</h1>
+        <div className={style.contentStyle}>
+            <h1>Nossos Trabalhos</h1>
+        </div>
     )
 }
 

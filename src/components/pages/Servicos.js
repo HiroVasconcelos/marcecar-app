@@ -1,6 +1,10 @@
+import style from './Servicos.module.css'
+
 function Servicos() {
     return(
-        <h1>Servicos</h1>
+        <div className={style.contentStyle}>
+            <h1>Servicos</h1>
+        </div>
     )
 }
 
