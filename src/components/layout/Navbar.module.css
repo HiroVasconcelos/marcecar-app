@@ -75,6 +75,10 @@ img {
     }
     .list li {
         margin-right: 0;
+        margin-bottom: 6vh;
+    }
+    .list li a:hover {
+        color: #ffff;
     }
     .mobileMenu {
         display: block;
