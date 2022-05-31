@@ -76,6 +76,7 @@ img {
     .list li {
         margin-right: 0;
         margin-bottom: 6vh;
+        margin-right: 3vh;
     }
     .list li a:hover {
         color: #ffff;

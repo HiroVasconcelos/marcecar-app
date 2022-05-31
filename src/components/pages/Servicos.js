@@ -3,7 +3,7 @@ import style from './Servicos.module.css'
 function Servicos() {
     return(
         <div className={style.contentStyle}>
-            <h1 className={style.tittle}>Servicos</h1>
+            <h1 className={style.tittle}>Serviços</h1>
             <div className={style.text}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim ligula non risus pellentesque malesuada. Nam tellus nulla, auctor sit amet vehicula quis, laoreet finibus nisl. Cras dictum rutrum lorem, a rutrum turpis condimentum vitae. Sed eget consectetur turpis. Morbi venenatis placerat nunc eu commodo. Phasellus maximus lacus vel nunc viverra, sed ultrices mi accumsan. Donec vel est et lacus sagittis auctor non ac dolor. Morbi nulla lorem, accumsan at dignissim id, pellentesque sit amet orci. Mauris turpis nulla, ullamcorper at posuere sit amet, auctor quis dolor. Pellentesque ex est, mattis quis commodo commodo, elementum in tortor. In hac habitasse platea dictumst. Vestibulum nisl nisi, congue at egestas maximus, convallis et metus. Vivamus varius nisi dolor, sed fermentum ligula ornare id.
 
