@@ -1,5 +1,29 @@
 .contentStyle {
-    margin-top: 95px;
-    margin-bottom: 20px;
-    background-color: gray;
+  margin-top: 16vh;
+  margin-left: 10vh;
+  margin-right: 10vh;
+  margin-bottom: 2vh;
+  background-color: rgb(221, 221, 221);
+  word-break: break-all
+}
+
+.tittle {
+  text-align: center;
+}
+
+.text {
+  text-align: justify;
+}
+
+@media (max-width: 999px) {
+  .contentStyle {
+    margin-top: 13vh;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    margin-bottom: 3vh;
   }
+
+  .tittle {
+    text-align: left;
+  }
+}
